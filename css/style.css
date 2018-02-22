@@ -1,0 +1,24 @@
+body{
+background: -webkit-linear-gradient(white 80%, #797979);
+background: -o-linear-gradient(white 80%, #797979);
+background: linear-gradient(white 80%, #797979);
+}
+img{
+	width: 100%;
+}
+nav{
+	border-top: 1px solid #007bff;
+	border-bottom: 1px solid #007bff;
+}
+aside{
+	background: #E0E0E0;
+}
+.zigzag > article .zigzag-img {
+	order: 0;
+}
+.zigzag > article:nth-child(even) .zigzag-img {
+ 	order:-1;
+}
+.brand{
+	width: 100%;
+}
